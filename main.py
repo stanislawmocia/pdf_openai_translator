@@ -38,9 +38,9 @@ Text:###
 def convert_markdown_to_pdf(input_file: str, output_file: str) -> None:
     try:
         subprocess.run(['pandoc', input_file, '-o', output_file, '--pdf-engine=xelatex'], check=True)
-        print(f'Plik {input_file} został pomyślnie przekonwertowany na {output_file}')
+        print(f'File {input_file} was successfully converted to {output_file}')
     except subprocess.CalledProcessError as e:
-        print(f'Wystąpił błąd podczas konwersji: {e}')
+        print(f'An error occurred while converting: {e}')
 
 input_directory = "./input"
 for filename in os.listdir(input_directory):
