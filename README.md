@@ -17,9 +17,13 @@ This tool extracts text from PDF files, translates it into Polish using OpenAI's
 You will need to have the following packages and software installed:
 
 *Python 3*
+
 *PyPDF2*
+
 *openai*
+
 *pandoc*
+
 *xelatex*
 
 You can install the necessary Python packages using pip:
