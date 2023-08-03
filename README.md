@@ -2,9 +2,13 @@
 This tool extracts text from PDF files, translates it into Polish using OpenAI's API, saves the translated content into Markdown files, and finally converts the Markdown files into PDFs.
 
 ## What the Program Does
+
 **PDF Extraction**: Reads PDF files from the `./input` directory and extracts the text.
+
 **Translation**: Uses OpenAI's API to translate the extracted text into Polish.
+
 **Save to Markdown**: Saves the translated text into Markdown files in the `./output_md` directory.
+
 **Markdown to PDF Conversion**: Converts the Markdown files into PDF format and saves them in the `./output_pdf` directory.
 
 
